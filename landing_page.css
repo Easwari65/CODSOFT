@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#C1ED9C;
+    font-family: sans-serif;
+    color: white;
+}
+
+header.heading-line {
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    flex-wrap: wrap;
+    border-bottom: 3px solid greenyellow;
+    box-shadow: 0 1px 10px greenyellow;
+    
+}
+
+.header-left h1 {
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.header-left h3 {
+    font-size: 15px;
+    margin: 5px 0 0;
+    color: #ccc;
+    font-style: italic;
+}
+
+.header-right ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.header-right li {
+    background-color: black;
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: 2px solid olive;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.header-right li:hover {
+    background-color: darkolivegreen;
+    color: black;
+    font-weight: bold;
+}
+
+.split-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 20px;
+}
+
+.left-section {
+    flex: 1;
+    min-width: 300px;
+    color: black;
+}
+
+.username {
+    font-size: 25px;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.code-score {
+    display: flex;
+    gap: 20px;
+    margin: 15px 0;
+    color: white;
+}
+
+.code-box {
+    background-color: black;
+    border: 3px solid darkolivegreen;
+    border-radius: 10px;
+    width: 160px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 10px greenyellow;
+}
+
+.progress h2 {
+    text-align: left;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+.progress ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.progress li {
+    background-color: rgb(240, 235, 235);
+    color: black;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#grow-btn {
+    background-color: black;
+    color: white;
+    border: 3px solid darkolivegreen;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 10px greenyellow;
+    cursor: pointer;
+}
+
+#grow-btn:hover {
+    background-color: #8fffac;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+#grow-btn:active {
+    background-color: white;
+    transform: scale(0.95);
+}
+
+.message {
+    background: darkgreen;
+    color: black;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+}
+
+.right-section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #003300;
+    text-align: center;
+    color: #ccc;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
