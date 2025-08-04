@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    line-height: 1.6;
+    background-color:grey;
+    color: white;
+    margin: 0;
+    height: 100vh;   
+}
+
+header{
+    background: black;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top : 0;
+    z-index: 1000;
+
+}
+
+header .first{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  background: #ff0000;
+  border-radius: 4px;
+  box-shadow: 2px 12px 10px rgba(227, 16, 16, 0.79);
+}
+
+section {
+  padding: 100px 40px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#home,#about,#skills,#projects,#contact {
+  background-color: #080808;
+  padding: 100px 0;
+  position: relative;
+}
+
+#home .container,#about .container, #skills .container, #projects .container, #contact .container {
+  width: 80%;
+  margin: auto;
+  background: rgb(184, 26, 26);
+  padding: 100px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 10px 200px red;
+  border: 2px solid black;
+  align-items: center;  
+  justify-content: center; 
+  background-color: black;
+  margin-top: 100px;
+  
+}
+
+.corner-img {
+  position: absolute;
+  bottom: 250px;
+  right: 90px;
+  width: 80px;  
+  height: auto;
+  border-radius: 10px;
+  background-color: #ff0000;
+
+  max-width: 100%;       
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 20px auto;  
+}
+
+
+footer{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 10px;
+    color: black;
+    bottom: 0;
+    width: 100%;
+}
